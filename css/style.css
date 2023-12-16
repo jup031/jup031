@@ -1,0 +1,219 @@
+/*default spacing*/
+#about, #projects, #services, #contact, #services{
+    padding: 6rem;
+}
+
+
+
+/*body*/
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+
+
+/*buttons*/
+.btn-june{
+    color:#e3ffe7;
+    background-color:rgba(122, 173, 168, 0.731);
+    border: none;
+    font-family:'Montserrat';
+    display:block;
+}
+
+.btn-june:hover{
+    background-color:rgba(22, 81, 69, 0.714);
+    color:#e3ffe7;
+}
+
+
+
+/*navbar section*/
+.navbar{
+    background-color: #FFFFFF; opacity: .3; filter: alpha(opacity=100);
+    padding: 1rem 1rem;
+}
+
+.navbar-brand{
+    font-family: 'Righteous';
+    font-weight:bolder;
+    font-size: larger;
+    color:rgb(11,101,101, 100%);
+}
+
+.nav-item{
+    padding: 2px 14px;
+    font-family:'Montserrat'
+}
+
+.nav-link{
+    color:rgb(11, 101, 101);
+    font-weight:bolder;
+}
+
+.nav-link:hover{
+    color: rgb(4, 39, 39);
+}
+
+
+
+/*hero*/
+#about{
+    padding-bottom:4rem;
+}
+
+.home_title {
+    font-family: 'Righteous';
+    font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12rem 4rem 12rem 4rem;
+    color:rgb(15, 111, 109);
+    text-shadow: 2px 4px 4px rgba(154, 154, 154, 0.539);
+    
+}
+
+
+
+/*about me section*/
+.about-header{
+    color: rgb(15, 111, 109);
+    font-family: 'Righteous';
+    text-align: center;
+    padding-top:8%;
+}
+
+.aboutBio{
+    font-family:'Montserrat';
+    text-align:center;
+    padding-top:2%;
+}
+
+/*projects section*/
+.card-body{
+    background-color:rgba(253, 252, 244, 0.632);
+}
+
+.project-column{
+    padding-top:2%;
+
+}
+
+.project-header{
+    color:rgb(15, 111, 109);
+    font-family:'Righteous';
+    text-align:center;
+}
+
+.card-text{
+    color:rgb(15, 111, 109);
+    font-family:'montserrat';
+    text-align:center;
+    padding: 2%;
+}
+
+.card-title{
+    color:rgb(15, 111, 109);
+    text-align: center;
+    font-family:'Courier Prime', Courier, monospace;
+    padding:2%;
+}
+    
+
+
+/*services section*/
+#services{
+    font-family:'Courier Prime', Courier, monospace
+}
+.services-header{
+    font-family: 'Righteous';
+    color:rgb(15, 111, 109);
+    text-align:center;
+}
+
+.service-column{
+    padding-top:2%;
+}
+.card-header{
+    text-align:center;
+    padding-top: 1rem;
+    }
+
+
+
+/*carousel*/
+#locationCarousel{
+    margin: 5rem 5rem;
+    padding: 4% 16%;
+}
+
+.carousel-item{
+    text-align:center;
+    font-family:'Montserrat';
+}
+
+
+
+/*contact*/
+.contact-header{
+    text-align: center;
+    font-family:'Righteous';
+    color:rgb(15, 111, 109);
+}
+
+.contact-column{
+    padding-top:2%;
+    padding-left:10%;
+}
+
+
+
+/*map component*/
+.map-column{
+    padding-top:2%;
+    padding-left:8rem;
+    padding-right:8rem;
+}
+
+
+
+/*socials*/
+.social-icons{
+    padding:2%;
+    font-family:'Righteous';
+    color:rgb(15, 111, 109);
+}
+
+.icon-1{
+    padding-bottom:2rem;
+}
+
+.icon-2{
+    padding-bottom:2rem;
+}
+
+
+
+/*footer* section*/
+.resume{
+    text-align:center;
+    font-family:'montserrat'
+
+}
+
+.btn-resume{
+    color:#e3ffe7;
+    background-color:rgba(122, 173, 168, 0.731);
+    border: none;
+    font-family:'Montserrat';
+}
+
+.btn-resume:hover{
+    background-color:rgba(22, 81, 69, 0.714);
+    color:#e3ffe7;
+}
+
+#bottom{
+    text-align: center;
+    padding: 6rem;
+}

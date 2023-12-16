@@ -1,0 +1,97 @@
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color:rgb(244, 246, 195);
+    font-style:oblique;
+}
+
+h2{
+    color:#00000080;
+    font-size:large;
+}
+
+h3{
+    color:rgb(0, 0, 0);
+    font-size:x-large;
+}
+
+dl{
+    text-align:left
+}
+
+
+dt{
+    font-weight:bold;
+    font-size:normal;
+}
+
+dd{
+    font-weight:normal;
+    font-size:small;
+}
+
+body{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+caption{
+    font-size:large;
+    font-style:oblique;
+}
+
+table{
+    border:none;
+    background-color:#bfe2f5f0;
+    text-align: center;
+    margin: auto;
+}
+
+td{
+    font-style:normal;
+    color:#000000;
+    border: 2px rgb(123, 163, 191) solid;
+    padding:5px 5px 5px 5px;
+}
+
+
+.fr{
+    font-style:oblique;
+    color:#000000;
+    background-color:rgb(254, 195, 247);
+    border:#000000 solid;
+    padding: 1x 1x 1x 1x;
+}
+
+
+.fc{
+    font-style:normal;
+    font-size:normal;
+    background-color: rgb(254, 195, 247);
+    border:rgb(0, 0, 0) solid;
+    padding: 1x 1x 1x 1x;
+}
+
+
+a:link{
+    color:rgb(55, 72, 134);
+}
+
+a:hover{
+    color:rgb(82, 157, 243);
+    cursor:grab;
+}
+
+a:visited{
+    color:rgba(85, 89, 174, 0.689)
+}
+
+a:active{
+    color:rgb(115, 0, 255);
+    cursor:grabbing;
+}
+
+
+
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+    <title>Schedule for June-jup031-Fall,2023 </title>
+    <link rel="stylesheet" href="styleLab2.css" />
+</head>
+
+<body>
+    <h3>Terms and Definitions</h3>
+    <dl>
+        <dt>HTML table</dt>
+        <dd>HTML tables allow one to arrange data into cells within rows and columns, defined by the HTML tags &lttable&gt &lt/table&gt. Within the table tags, you can use HTML tags &ltcaption&gt&lt/caption&gt to create a title for the table. HTML tags &ltth&gt&lt/th&gt are used to assign specific cells within your table as headers. You can also assign an entire row as the header row by using HTML tags &ltthead&gt&lt/thead&gt. The "thead" tags should be used in conjunction with HTML tags &lttbody&gt&lt/tbody&gt and &lttfoot&gt&lt/tfoot&gt to group body content as well as the footer content. HTML tags &lttr&gt&lt/tr&gt create rows for your table. Within every "tr" tag, there should be at least one &lttd&gt&lt/td&gt tag, which is for cells that will have table data.</dd>
+        <dt>Colspan vs. Rowspan</dt>
+        <dd>The colspan attribute defines the number of columns that a specific cell should span. Rowspan attribute defines the number of rows a cell should span. </dd>
+        <dt>Cell spacing vs. Padding</dt>
+        <dd>Cell spacing is a CSS property that defines the space between each cell. You can change this by using "border-spacing" property in your css file. Padding is a css property that defines the space between the cell edges and the cell content. It can be changed by using the "padding" property within your css file.</dd>
+        <dt>How to define table borders using CSS</dt>
+        <dd>The "border" property is used to change the outline of, for example, your HTML table. You may change the color and sizing of the border.</dd>
+        <dt>How to control border widths using CSS</dt>
+        <dd>The "border-width" CSS property establishes the width of an element's four borders. You can have 1-4 values for this property to manipulate each side of the border. You must declare the "border-style" property before the "border-width" property. </dd>
+    </dl>
+
+    <table border="1">
+        <!--header-->
+        <caption><h1>June's Schedule</h1>
+        <h2>Fall - 2023</h2>
+        </caption>
+
+    <tr>
+        <th class="fc">Time</th>
+        <th class="fr">Mon</th>
+        <th class="fr">Tues</th>
+        <th class="fr">Wed</th>
+        <th class="fr">Thurs</th>
+        <th class="fr">Fri</th>
+        <th class="fr">Sat-Sun</th>
+    </tr>
+    <tr>
+        <!--12pm-->
+        <td class="fc">12-12:30pm</td>
+        <td rowspan="2">
+            <a href="https://canvas.ucsd.edu/courses/49640">Phys 1A Lecture</a>
+        </td>
+       <td rowspan="2"> </td>
+        <td rowspan="2">
+            <a href="https://canvas.ucsd.edu/courses/49640">Phys 1A Lecture</a>
+        </td>
+        <td rowspan="4">
+            <a href="https://canvas.ucsd.edu/courses/50088">Phys 1AL</a>
+        </td>
+        <td rowspan="2">
+            <a href="https://canvas.ucsd.edu/courses/49640">Phys 1A Lecture</a>
+        </td>
+        <td rowspan="2">
+            <br><img src="images/gym.jpeg" height="80" width="80"></br> 
+            <a href="https://recreation.ucsd.edu/" target="_blank">Gym</a>
+        </td>
+    </tr>
+    <tr>
+        <!--12:30pm-->
+        <td class="fc">12:30-1pm</td>
+    </tr>
+    <tr>
+        <!--1pm-->
+        <td class="fc">1-1:30pm</td>
+        <td rowspan="2"><br>Cooking</br>
+            <img src ="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="2"><br>Cooking</br>
+            <img src ="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="2"><br>Cooking</br>
+            <img src ="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="2"><br>Cooking</br>
+            <img src ="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="4"><br>Laundry</br>
+            <img src="images/laundry.jpeg" height="80" width = "80">
+        </td>
+    </tr>
+    <tr>
+        <!--1:30pm-->
+        <td class="fc">1:30-2pm</td>
+
+    </tr>
+    <tr>
+        <!--2pm-->
+        <td class="fc">2-2:30pm</td>
+        <td rowspan="4">Homework</td>
+        <td rowspan="3">
+            <a href="https://canvas.ucsd.edu/courses/48851">Cogs 3 Lecture</a>
+        </td>
+        <td rowspan="8">Homework</td>
+        <td rowspan="3">
+            <a href="https://canvas.ucsd.edu/courses/48851">Cogs 3 Lecture</a>
+        </td>
+        <td rowspan="8">Homework</td>
+    </tr>
+    <tr>
+        <!--2:30pm-->
+        <td class="fc">2:30-3pm</td>
+
+    </tr>
+    <!--3pm-->
+        <td class="fc">3-3:30pm</td>
+        <td rowspan="6">Study</td>
+    </tr>
+    <tr>
+        <!--3:30pm-->
+        <td class="fc">3:30-4pm</td>
+
+        <td rowspan="3">
+            <a href="https://canvas.ucsd.edu/courses/48899">Chem 40A Lecture</a>
+        </td>
+        <td rowspan="3">
+            <a href="https://canvas.ucsd.edu/courses/48899">Chem 40A Lecture</a>
+        </td>
+    </tr>
+    <tr>
+        <!--4pm-->
+        <td class="fc">4-4:30pm</td>
+        <td rowspan="2">Chem 40A Discussion</td>
+    </tr>
+    <tr>
+        <!--4:30pm-->
+        <td class="fc">4:30-5pm</td>
+    </tr>
+    <tr>
+        <!--5pm-->
+        <td class="fc">5-5:30pm</td>
+        <td rowspan="2"><br>Cooking</br>
+            <img src="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="3">
+            <a href= "https://canvas.ucsd.edu/courses/48663">BICD 100 Lecture</a>
+        </td>
+        <td rowspan="3">
+            <a href= "https://canvas.ucsd.edu/courses/48663">BICD 100 Lecture</a>
+        </td>
+    </tr>
+    <tr>
+        <!--5:30pm-->
+        <td class="fc">5:30-6pm</td>
+    </tr>
+    <tr>
+        <!--6pm-->
+        <td class="fc">6-6:30pm</td>
+        <td rowspan="2">Cogs 3 Lab</td>
+            <td rowspan="2">
+            <br><img src="images/gym.jpeg" height="80" width="80" ></br>
+            <a href="https://recreation.ucsd.edu/" target="_blank">Gym</a>
+        </td>
+        <td rowspan="2">Break</td>
+        <td rowspan="2"><br>Guitar</br>
+            <img src="images/guitar.jpeg" height="80" width="80">
+        </td>
+        </tr>
+    <tr>
+        <!--6:30pm-->
+        <td class="fc">6:30-7pm</td>
+        <td>Break</td>
+        <td>Break</td>
+    </tr>
+    <tr>
+        <!--7pm-->
+        <td class="fc">7-7:30pm</td>
+        <td rowspan="2">
+           <br><img src="images/gym.jpeg" height="80" width="80"></br>
+            <a href="https://recreation.ucsd.edu/" target="_blank">Gym</a>
+        </td>
+        <td rowspan="2"><br>Cooking</br>
+            <img src="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="2"><br>Cooking</br>
+           <img src ="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="2"><br>Cooking</br>
+            <img src ="images/cooking.jpeg" height="80" width="80">
+        </td>
+        <td rowspan="2">BICD 100 Discussion</td>
+        <td rowspan="3">
+            <br><img src="images/netflix.png" height="80" width="80"></br>
+            <a href="https://www.netflix.com/" target="_blank">Netflix</a>
+        </td>
+    </tr>
+    <tr>
+        <!--7:30pm-->
+        <td class="fc">7:30-8pm</td>
+    </tr>
+    <tr>
+        <!--8pm-->
+        <td class="fc">8-8:30pm</td>
+        <td>Homework</td>
+        <td>Homework</td>
+        <td>
+            <img src="images/koreanflag.png" height="60" width="80" class="center">
+            <br><a href="https://www.instagram.com/ucsd.kasa/">UCSD Kasa</a></br>
+        </td>
+        <td>Homework</td>
+        <td>Homework</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #34374e;
+  font-family: 'Electrolize', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #7f0079;
+}
+
+h2, h3, h4{
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #f5b1e4;
+}
+
+
+
+p {
+  color: #f5b1e4;
+}
+
+img {
+  width: 80%;
+  background-color: #a5ddb7;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+  color:rgb(0, 0, 0);
+  background-color: #a5ddb7;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: 'Electrolize', sans-serif;
+}
+
+
+
